@@ -5,10 +5,10 @@ export function multiply(a: number, b: number): number {
 
 // 2
 export function calculatePercentage(
-    number: number,
-    percentage: number
+    part: number,
+    total: number
 ): number {
-    return (number * percentage) / 100;
+    return (part / total) * 100;
 }
 
 // 3

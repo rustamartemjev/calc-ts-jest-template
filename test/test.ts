@@ -10,8 +10,12 @@ test("multiply", () => {
     expect(multiply(5, 4)).toBe(20);
 });
 
-test("calculatePercentage", () => {
-    expect(calculatePercentage(200, 10)).toBe(20);
+test("calculatePercentage - 5 is 20 percent of 25", () => {
+    expect(calculatePercentage(5, 25)).toBe(20);
+});
+
+test("calculatePercentage - 25 is 50 percent of 50", () => {
+    expect(calculatePercentage(25, 50)).toBe(50);
 });
 
 test("isEven - even number", () => {
